@@ -5,7 +5,6 @@
     padding: 0;
     list-style: none;
     text-decoration: none;
-    box-sizing: border-box;
 }
 
 body{
@@ -13,7 +12,7 @@ body{
 }
 
 img{
-    max-width: 100%;
+    width: 100%;
     display: block;
     border-radius: 5px;
 }
@@ -233,6 +232,7 @@ p{
     align-content: start;
     padding: 30px;
     gap: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(150px,1fr));
 }
 
 .footer{
@@ -318,4 +318,14 @@ p{
     .side-nav li a{
         margin: 30px 30px 30px 0;
     }
+
+    .content{
+        grid-template-columns: auto;
+    }
+
+    .atributos{
+        text-align: center;
+    }
+
+
 }
