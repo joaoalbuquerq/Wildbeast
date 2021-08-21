@@ -13,7 +13,8 @@ body{
 }
 
 img{
-    /* max-width: 100px; */
+    max-width: 100%;
+    display: block;
 }
 
 /* ESTRUTURA GERAL */
@@ -97,6 +98,11 @@ img{
 
 .anuncios{
     grid-area: anuncios;
+    background: #fafbfc;
+    display: grid;
+    align-content: start;
+    padding: 30px;
+    gap: 30px;
 }
 
 .footer{
