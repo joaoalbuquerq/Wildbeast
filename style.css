@@ -274,4 +274,21 @@ p{
         "footer"
         ;
     }
+
+    .header{
+        grid-template-columns: auto;
+        justify-content: center;
+        padding: 20px;
+    }
+    .header nav a{
+        font-size: 1em;
+    }
+
+    .header li+li{
+        margin-left: 10px;
+    }
+
+    .logo{
+        margin-left: 25px;
+    }
 }
