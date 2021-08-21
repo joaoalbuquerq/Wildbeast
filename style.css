@@ -68,8 +68,27 @@ img{
     max-width: 200px;
 }
 
+/* SUB-MENU */
+
 .side-nav{
     grid-area: sidenav;
+    background: #fafbfc;
+}
+
+.side-nav li a{
+    display: block;
+    min-width: 90px;
+    max-width: 160px;
+    margin: 30px auto 30px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px 0px rgba(44, 44, 44, 0.30);
+    transition: .3s ease-out;
+}
+
+.side-nav li a:hover{
+    background: #833AB4;
 }
 
 .content{
