@@ -107,4 +107,13 @@ img{
 
 .footer{
     grid-area: footer;
+    background: linear-gradient(90deg, rgba(131,58,180,1) 28%, rgba(131,58,180,1) 41%, rgba(106,29,253,1) 73%);
+}
+
+.footer p,a{
+    color: #fff;
+    text-align: center;
+    padding: 30px 5px;
+    font-weight: bold;
+    
 }
