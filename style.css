@@ -263,7 +263,7 @@ p{
     }
 }
 
-@media (max-width: 760px){
+@media (max-width: 770px){
     .estrutura{
         grid-template-columns: 100%;
         grid-template-areas: 
@@ -290,5 +290,32 @@ p{
 
     .logo{
         margin-left: 25px;
+    }
+
+    .side-nav{
+        padding: 0 30px;
+        overflow-x: auto;
+        --webkit-overflow-scrolling: touch;
+        -ms-overflow-style: -ms-autohiding-scrollbar;
+        position: relative;
+    }
+
+    .side-nav::after{
+        content: '→';
+        position: absolute;
+        top: 5px;
+        right: 30px;
+    }
+
+    .side-nav ul{
+        display: flex;
+    }
+
+    .side-nav li{
+        flex: 1 0 110px;
+    }
+
+    .side-nav li a{
+        margin: 30px 30px 30px 0;
     }
 }
