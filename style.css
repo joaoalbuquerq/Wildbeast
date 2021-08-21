@@ -187,6 +187,45 @@ p{
     position: relative;
     top: 2px;
 }
+
+.destaque{
+    font-size: 1.1em;
+    color: rgba(131,58,180,1);
+    max-width: 16em;
+
+}
+
+.citacao,.atributos{
+    align-self: start;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px 0px rgba(44, 44, 44, 0.30);
+    background: rgba(131,58,180,1);
+    color: #fff;
+}
+
+.citacao p{
+    font-size: 1.5em;
+    font-style: italic;
+    text-align: center;
+    color: #fff;
+    max-width: 430px;
+    margin: 0 auto;
+}
+
+.atributos li{
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.125em;
+    padding: 15px;
+}
+
+.atributos li + li{
+    border-top: 2px solid rgba(255,255,255,.2)
+}
+
+/* ANUNCIOS */
+
 .anuncios{
     grid-area: anuncios;
     background: #fafbfc;
