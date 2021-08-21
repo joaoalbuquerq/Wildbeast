@@ -10,8 +10,7 @@ O projeto **Wildbeast** foi desenvolvido durante o curso de **CSS Grid Layout** 
 
 ## 🚀 Tecnologias e ferramentas utilizadas
 - **HTML5**
-- **CSS3 [Grid Layout](https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout)**
-- **[Brackets](http://brackets.io/)** 
+- **CSS3 [Grid Layout](https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout)** 
 
 
 ---
@@ -20,7 +19,6 @@ O projeto **Wildbeast** foi desenvolvido durante o curso de **CSS Grid Layout** 
 [![Wildbeast](https://i.imgur.com/HvbFC3R.png "Clique para acessar o projeto")](https://devmagno.github.io/wildbeast/ "Clique para acessar o projeto")   
 
 
-Você pode acessar o projeto clicando [aqui](https://devmagno.github.io/wildbeast/).
 
 ---
 
@@ -30,7 +28,7 @@ Não há necessidade de executar o projeto, você pode visualizá-lo clicando no
 
 ```bash
 # Clone o repositório
-git clone https://github.com/devMagno/wildbeast
+git clone https://github.com/joaoalbuquerq/wildbeast
 
 # Entre no diretório
 cd wildbeast
@@ -39,9 +37,5 @@ Depois disso, utilize uma ferramenta como o [Live Server](https://marketplace.vi
 
 ---
 
-## 📝 Licença
-
-O projeto está sob a licença MIT. Para saber mais, acesse o arquivo [LICENSE](https://github.com/devMagno/wildbeast/blob/main/LICENSE).
-
 ---
-**Desenvolvido com 💜 por [Guilherme Magno](https://github.com/devmagno/).**
+**Desenvolvido com 💜 por [João Albuquerque](https://github.com/joaoalbuquerq/).**
