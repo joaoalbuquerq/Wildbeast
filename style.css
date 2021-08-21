@@ -13,7 +13,7 @@ body{
 }
 
 img{
-    max-width: 100px;
+    /* max-width: 100px; */
 }
 
 /* ESTRUTURA GERAL */
@@ -30,6 +30,42 @@ img{
 
 .header{
     grid-area: header;
+    background: linear-gradient(90deg, rgba(131,58,180,1) 28%, rgba(131,58,180,1) 41%, rgba(106,29,253,1) 73%);
+    padding: 30px;
+
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+}
+
+.header nav ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header nav a{
+    display: block;
+    padding: 10px;
+    background: rgba(0,0,0,.1);
+    border-radius: 5px;
+
+    color: #fff;
+    font-size: 1.125em;
+    font-weight: bold;
+
+    transition: .4s;
+}
+
+.header nav a:hover{
+    background: rgba(0,0,0,.5);
+}
+
+.header li + li{
+    margin-left: 30px;
+}
+
+.logo{
+    max-width: 200px;
 }
 
 .side-nav{
